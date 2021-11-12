@@ -1,0 +1,94 @@
+.sitelinks {
+  margin: auto;
+  text-align: center;
+  display: block;
+  padding-top: 5em;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1em;
+  padding-top: 10em;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 5em;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: large;
+}
+
+nav a:link {
+  color: blue;
+}
+nav a:visited {
+  color: darkgray;
+}
+
+nav a:hover {
+  color: cyan;
+}
+
+body {
+  background-color: rgb(250, 221, 183);
+}
+
+ul {
+  display: inline-block;
+  margin-left: 5em;
+  margin-right: 10em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url(images/ecommerce.jpg.jpg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
+}
+
+table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: center;
+  margin-top: 2em;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(240, 189, 123);
+}
+
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 1em;
+  text-align: left;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left;
+}
+
+td:nth-of-type(odd) {
+  background-color: #d2b48e;
+}
+
+th:nth-of-type(odd) {
+  background-color: #d2b48e;
+}
+
+footer {
+  display: block;
+  font-size: 0.85em;
+  font-style: italic;
+  text-align: center;
+  padding-top: 5em;
+}
